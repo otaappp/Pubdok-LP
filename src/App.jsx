@@ -1,11 +1,17 @@
 import Navbar from "./components/Navbar"
+import About from "./pages/About"
 import Home from "./pages/Home"
+import Projects from "./pages/Projects"
+import Services from "./pages/Services"
 
 function App() {
 	return (
-		<div>
+		<div className="xl:flex">
 			<Navbar />
-			<Home />
+			{/* <Home /> */}
+			{/* <Projects /> */}
+			{/* <About /> */}
+			<Services />
 		</div>
 	)
 }
