@@ -7,7 +7,7 @@ const MobileHeader = () => {
 	}
 
 	return (
-		<header className="fixed top-0 w-full flex items-center py-1 px-4 bg-[#c5a47e] text-white z-20 xl:hidden">
+		<header className="fixed top-0 w-full h-[7vh] flex items-center py-1 px-4 bg-[#c5a47e] text-white z-20 xl:hidden">
 			<div onClick={toggleNavbar}>
 				<i className="fa-solid fa-bars fa-lg"></i>
 			</div>
